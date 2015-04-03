@@ -1,0 +1,17 @@
+<?php
+if(isset($_GET['uname']))
+{
+if($_GET['uname']==null)
+return;
+$user_name=md5($_GET['uname']);
+include"connect.php";
+$query="select * from register where `u_name`='$user_name'";
+$re=mysql_query($query,$db);
+$res=array();
+while($row=mysql_fetch_array($re)){$res=$row;}
+if(empty($res))
+echo "Available";
+else 
+echo "Not Available";
+}
+?>

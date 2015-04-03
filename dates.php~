@@ -1,0 +1,7 @@
+<?php
+$date=date('Y,m,d');
+$time=date('h,i,s');
+$timestamp=$date.",".$time;
+$d=mktime(parseInt($timestamp));
+echo $d;
+?>

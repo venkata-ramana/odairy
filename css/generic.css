@@ -1,0 +1,68 @@
+.page
+{
+text-align:center;
+background-color:#fff;
+display:inline-block;
+}
+.page .header
+{
+width:auto;
+height:auto;
+display:inline-block;
+background-color:#fff;
+}
+
+.page .header .cell
+{
+width:800px;
+margin:10px;
+background-color:#fff;
+border:1px solid gray;
+border-radius:10px;
+text-align:left;
+padding:30px 0 15px 10px;
+display:inline-block;
+}
+.body
+{
+width:auto;
+height:auto;
+background-image:url(1.png);
+padding-left:70px;
+text-align:center;
+}
+.form_title
+{
+font-size:14pt;
+padding:3px;
+border:0px;
+background-image:url(2.png);
+}
+.form_text
+{
+padding-top:5px;
+width:1260;
+font-size:18pt;
+border:0px;
+background-image:url(3.png);
+font-weight:normal;
+}
+.form_title:focus, .form_text:focus
+{
+border:0px;
+outline:0px;
+}
+.submit
+{
+width:200px;
+height:40px;
+border:3px solid #ddd;
+background-color:gray;
+border-radius:5px;
+color:white;
+font-size:14pt;
+}
+table
+{
+
+}

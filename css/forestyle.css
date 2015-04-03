@@ -1,0 +1,37 @@
+#tab{width:450px;height:350px;border:2px solid #ff924A;box-shadow:0 0 10px 1px 
+gold;border-left:7px solid #ff924a;padding:5px;background-color:#fff;}
+
+#tab .table_title{width:450px;text-align:center;font-size:15pt;color:#fff;background:#ff924a;height:25px;border-top-right-radius:15px; border-top-left-radius:15px;box-shadow:0 0 10px 1px gold;padding-top:5px;font-weight:bold;margin:-30px 0 0 -12px;}
+
+#tab .tab_td_title{width:100%;height:30px;padding:5px 0 0 10px;border-bottom:1px dashed gray;}
+#tab .tab_td_title .one .view1, #tab .tab_td_title .two .view{text-transform:capitalize;}
+#tab .tab_td_title .two .view{font-size:8pt;}
+#tab .tab_td_title .one{width:65%;color:red;text-align:left;display:inline-block;}
+#tab .tab_td_title .two{width:35%;color:blue;text-align:left;display:inline-block;padding-left:10px;}
+
+#tab .footer{text-align:right;width:100%;height:30px;margin-top:20px;}
+
+
+.frames{border:0px;width:900px;height:500px;}
+	table
+	{
+	
+	border:1px solid gray;
+	border-radius:5px;
+	}
+	
+	.back
+	{
+	color:#fff;
+	text-transform:uppercase;
+	width:75px;
+	background-color:green;
+	border-radius:5px;
+	outline:0px;
+	font-family:comic sans ms;
+	font-size:10pt;
+	cursor:pointer;
+	}
+	.left{left:20px;width:430px;height:400px;background-color:#fff;border-radius:10px;margin:10px;position:fixed;}
+	.right{left:490px;width:430px;height:400px;background-color:#fff;border-radius:10px;margin:10px;position:fixed;}
+	#ajaxreq{left:490px;width:430px;height:400px;position:fixed;}
